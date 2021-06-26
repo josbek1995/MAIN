@@ -1,7 +1,7 @@
 import os
 
 from flask_mysqldb import MySQL, MySQLdb
-from flask import Flask, flash, jsonify, redirect, render_template, request, session
+from flask import Flask, flash, jsonify, redirect, render_template, request, session, send_from_directory
 from flask_session import Session
 from tempfile import mkdtemp
 from werkzeug.exceptions import default_exceptions, HTTPException, InternalServerError
@@ -11,7 +11,7 @@ from datetime import datetime
 from helpers import apology, login_required, usd, soles
 
 # Configure application
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 # Add a MySQL instance to the code
 mysql = MySQL(app)
@@ -55,7 +55,11 @@ Session(app)
 @app.route("/")
 def index():
     return render_template("index.html")
-    
+
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
+
 @app.route("/costos")
 def main():
     cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)

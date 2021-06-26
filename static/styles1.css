@@ -49,6 +49,12 @@ main tfoot
     position: relative;
 }
 
+.intro p{
+    color:rgb(3, 92, 102);
+    font-size: 3rem;
+    text-align: center;
+}
+
 .intro h1{
     padding: 10px;
     padding-left: 20px;
@@ -116,6 +122,10 @@ main tfoot
     height: 100%;
     position: relative;
     box-shadow: 0 10px 10px rgba(50, 60, 60, 0.2);
+}
+
+#main{
+    background-color: rgb(3, 92, 102);
 }
 
 .centrarcosas{
@@ -191,7 +201,6 @@ main tfoot
 
 #section-4{
     position: relative;
-    margin-top: 70px;
 }
 
 #wrapper{
@@ -377,6 +386,9 @@ footer
         font-size: 1.2rem;
     }
 
+    #wrapper{
+        display: table;
+    }
     #capa_izquierda{
         float: none;
         width: 100%;
@@ -385,13 +397,12 @@ footer
     }
     #capa_derecha{
         float: none;
+        padding: unset;
         width: 100%;
         display: table-header-group;
         position: static;
     }
-    #wrapper{
-        display: table;
-    }
+    
     .cubicornio{
         padding: 0px 10px;
     }

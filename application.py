@@ -19,10 +19,10 @@ mysql = MySQL(app)
 app.secret_key = "clavesecreta"
 
 # MySQL configurations
-app.config["MYSQL_HOST"] = "localhost"
-app.config["MYSQL_USER"] = "root"
-app.config["MYSQL_PASSWORD"] = ""
-app.config["MYSQL_DB"] = "bd_insumos"
+app.config["MYSQL_HOST"] = "brzih4izs8o5oog3dffy-mysql.services.clever-cloud.com"
+app.config["MYSQL_USER"] = "ur5ehbxva1ifos4c"
+app.config["MYSQL_PASSWORD"] = "XX29WvGzG9xxZj4yDYMj"
+app.config["MYSQL_DB"] = "brzih4izs8o5oog3dffy"
 app.config["MYSQL_CURSORCLASS"] = "DictCursor"
 
 # Ensure templates are auto-reloaded
@@ -30,7 +30,7 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 # Ensure app always listen 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
 
 # Ensure responses aren't cached
 
@@ -112,7 +112,7 @@ def resultado_materiales():
             cur.execute(query)
             material = cur.fetchall()
         else:    
-            query = "SELECT CAST(SUM(CASE WHEN Id_fuente = 'T_VIR' THEN 1 ELSE 0 END) AS int) AS t_virtual, CAST(SUM(CASE WHEN Id_fuente = 'T_FIS' THEN 1 ELSE 0 END) AS int) AS t_fisica, CAST(SUM(CASE WHEN Id_fuente = 'E_PUB' THEN 1 ELSE 0 END) AS int) AS expe, AVG(Precio) AS average, MAX(Fecha) AS max_date, Und_largo, Und from materiales WHERE Descrip = '{}' AND ubigeo='{}' GROUP BY Und_largo".format(search_word, ubigeo)
+            query = "SELECT CAST(SUM(CASE WHEN Id_fuente = 'T_VIR' THEN 1 ELSE 0 END) AS SIGNED) AS t_virtual, CAST(SUM(CASE WHEN Id_fuente = 'T_FIS' THEN 1 ELSE 0 END) AS SIGNED) AS t_fisica, CAST(SUM(CASE WHEN Id_fuente = 'E_PUB' THEN 1 ELSE 0 END) AS SIGNED) AS expe, AVG(Precio) AS average, MAX(Fecha) AS max_date, Und_largo, Und from materiales WHERE Descrip = '{}' AND ubigeo='{}' GROUP BY Und_largo".format(search_word, ubigeo)
             cur.execute(query)
             material = cur.fetchall()
 
@@ -143,7 +143,7 @@ def unidades_materiales():
     if request.method == 'POST':
         search_word = request.form['query']
         ubigeo = request.form['ubigeo']   
-        query = "SELECT CAST(SUM(CASE WHEN Id_fuente = 'T_VIR' THEN 1 ELSE 0 END) AS int) AS t_virtual, CAST(SUM(CASE WHEN Id_fuente = 'T_FIS' THEN 1 ELSE 0 END) AS int) AS t_fisica, CAST(SUM(CASE WHEN Id_fuente = 'E_PUB' THEN 1 ELSE 0 END) AS int) AS expe, AVG(Precio) AS average, MAX(Fecha) AS max_date, Und_largo, Und, Descrip, Marca from materiales WHERE Descrip = '{}' AND ubigeo='{}' GROUP BY Descrip, Und".format(search_word, ubigeo)
+        query = "SELECT CAST(SUM(CASE WHEN Id_fuente = 'T_VIR' THEN 1 ELSE 0 END) AS SIGNED) AS t_virtual, CAST(SUM(CASE WHEN Id_fuente = 'T_FIS' THEN 1 ELSE 0 END) AS SIGNED) AS t_fisica, CAST(SUM(CASE WHEN Id_fuente = 'E_PUB' THEN 1 ELSE 0 END) AS SIGNED) AS expe, AVG(Precio) AS average, MAX(Fecha) AS max_date, Und_largo, Und, Descrip, Marca from materiales WHERE Descrip = '{}' AND ubigeo='{}' GROUP BY Descrip, Und".format(search_word, ubigeo)
         cur.execute(query)
         material = cur.fetchall()
 

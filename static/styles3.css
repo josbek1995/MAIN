@@ -1,0 +1,88 @@
+*
+{
+    font-family: 'Oxygen', sans-serif;
+}
+
+html{
+    background-color: whitesmoke;
+}
+
+body
+{
+    /*No scrollbars in X axis*/
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* PARA RECORDAR, AL COLOCAR EL TEMPLATE GRID AREA- SOLAMENTE ESE DIV CON LA CLASE COSTO SE MOSTRARÁ*/
+.contenedor{
+    height: 100%;
+    padding: 0px 50px;
+}
+
+.mapdiv{
+    padding-right: 30px;
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.seleccion{
+    padding-top: 100px;
+    width: 60%;
+    float: right;
+    padding: 0 30px;
+
+}
+
+.ubigeo{
+    margin: 0 20px;
+    margin-right: 500px;
+}
+
+.tablas{
+    margin-top: 20px;
+    grid-area: costo;
+    text-align: center;
+}
+
+.mapdiv path{
+    fill: #dddbda;
+    stroke: #3a371d;
+    stroke-width: 4px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover{
+    fill: #000;
+    cursor: pointer;
+}
+
+svg{
+    max-height: 640px;
+}
+
+@media only screen and (max-width: 980px){
+    body
+    {
+    overflow-y: unset;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .mapdiv{
+        float: unset;
+        padding: 0 30px;
+        width: 100%;
+    }
+    .seleccion{
+        float: unset;
+        width: 100%;
+    }
+    .ubigeo{
+        margin: 0 20px;
+    }
+}

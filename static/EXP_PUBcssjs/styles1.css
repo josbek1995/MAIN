@@ -1,0 +1,81 @@
+*
+{
+    font-family: 'Oxygen', sans-serif;
+    box-sizing: border-box;
+    
+}
+nav{
+    background-color: rgb(224, 223, 223);
+}
+
+html
+{
+    height: auto;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.workspace{
+    margin: 0;
+    height: 87vh;
+    display: flex;
+    user-select: none;
+    overflow: hidden;
+    background-color: rgb(224, 223, 223);
+}
+.workspace ul,li{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#separation{
+    width: 100%;
+    height: 5px;
+    background: #36393F;
+    border-left: 1px solid #4a4c52;
+    border-right: 1px solid #202125;
+    box-sizing: border-box;
+    cursor: col-resize;
+    z-index: 1;
+}
+
+.resizer{
+  width: 10px;
+  height: 100%;
+  background: #36393F;
+  border-left: 1px solid #4a4c52;
+  border-right: 1px solid #202125;
+  box-sizing: border-box;
+  cursor: col-resize;
+  z-index: 1;
+}
+
+.window{
+    display: flex;
+    font: 2em Segoe UI;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.window_child{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------------------------------PROPERTIES COLLAPSIBLE LIST------------------------------------------------*/
+.collapsibleList li{
+    list-style-image : url('/static/button.png');
+    cursor           : auto;
+  }
+  
+  li.collapsibleListOpen{
+    list-style-image : url('/static/button-open.png');
+    cursor           : pointer;
+  }
+  
+  li.collapsibleListClosed{
+    list-style-image : url('/static/button-closed.png');
+    cursor           : pointer;
+  }

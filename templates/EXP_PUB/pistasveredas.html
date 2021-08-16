@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Cubicorn ico -->
+        <link href="/static/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+        
+        <!-- CSS personal stylesheet -->
+        <link href="/static/EXP_PUBcssjs/styles1.css" rel="stylesheet">
+        
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+                       
+        <title>MAIN - Ingenieria del Futuro</title>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light" >
+            <a href="/"><img src='static/MAIN.gif' style='height: 50px;' alt=''></a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                {% if session.user_id %}
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="/quote">Registrar productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/buy">Registrar tienda</a></li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>
+                    </ul>
+                {% else %}
+                    <ul class="navbar-nav ml-auto">
+                        <!--<li class="nav-item"><a class="nav-link" href="/develop">Ayúdanos a Ayudar</a></li>-->
+                        <li class="nav-item">PISTAS Y VEREDAS : Partes de un Expedientes Técnico Público</li>
+                        <!--<li class="nav-item"><a class="nav-link" href="/develop" >Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/develop">Log In</a></li>-->
+                    </ul>
+                {% endif %}
+            </div>        
+        </nav>  
+        <div id="separation"></div>
+        <div class="workspace">
+            <section class="window">
+                <ul class="collapsibleList">
+                <li style="list-style: none;"><b>ESTRUCTURA DE UN EXPEDIENTE DE <br> PISTAS Y VEREDAS</b></li><br>
+                <li>1. RESUMEN EJECUTIVO</li>
+                <li>2. MEMORIA DESCRIPTIVA
+                    <ul class="collapsibleList">
+                    <li>2.1. DATOS GENERALES
+                        <ul class="collapsibleList">
+                        <li>    2.1.1. NOMBRE DEL PROYECTO</li>
+                        <li>    2.1.2. CODIGO UNICO O SNIP</li>
+                        <li>    2.1.3. CADENA FUNCIONAL</li>
+                        <li>    2.1.4. LOCALIZACIÓN GEOGRÁFICA</li>
+                        <li>    2.1.5. MAPA DE UBICACIÓN</li>
+                        </ul>
+                    </li>
+                    <li>2.2. ANTECEDENTES</li>
+                    <li>2.3. OBJETIVOS</li>
+                    <li>2.4. SITUACION ACTUAL DEL AREA DEL PROYECTO
+                        <ul class="collapsibleList">
+                        <li>    2.4.1. DATA EXTRAIDA DEL INEI</li>
+                        </ul>
+                    </li>
+                    <li>2.5. INFRAESTRUCTURA DE SERVICIOS BASICOS
+                        <ul class="collapsibleList">
+                        <li>    2.5.1. VIVIENDA</li>
+                        <li>    2.5.2. TRANSPORTE</li>
+                        </ul>
+                    </li>
+                    <li>2.6. JUSTIFICACIÓN DEL PROYECTO</li>
+                    <li>2.7. DESCRIPCIÓN DE METAS A EJECUTAR</li>
+                    <li>2.8. COSTOS DEL PROYECTO</li>
+                    <li>2.9. FUENTES DE FINANCIAMIENTO</li>
+                    <li>2.10. MODALIDAD DE EJECUCIÓN</li>
+                    <li>2.11. SISTEMA DE CONTRATACIÓN</li>
+                    <li>2.12. PLAZO DE EJECUCIÓN</li>
+                    <li>2.13. OTROS
+                        <ul class="collapsibleList">
+                        <li>    2.13.1.	EPOCAS RECOMENDABLES PARA LA EJECUCIÓN DEL PROYECTO</li>
+                        <li>    2.13.2.	CANTERAS DE AGREGADOS Y ELIMINACIÓN DE DESMONTE</li>
+                        <li>    2.13.3. MAPAS DESCRIPTIVOS
+                            <ul class="collapsibleList">
+                            <li>            2.13.3.1. LUGARES PARA EL PARQUEO DE VEHÍCULOS</li>
+                            <li>            2.13.3.2. MAPA DESCRIPTIVO DE LA EXISTENCIA DE LÍNEAS DE DRENAJE URBANO</li>
+                            <li>            2.13.3.3. MAPA DESCRIPTIVO DE LA EXISTENCIA DE LÍNEAS DE SUMINISTRO DE AGUA POTABLE</li>
+                            <li>            2.13.3.4. UBICACIÓN DE ÁREAS VERDES</li>
+                            <li>            2.13.3.5. UBICACIÓN DE AFLUENTES PARA EL DRENAJE DE AGUAS PLUVIALES</li>
+                            <li>            2.13.3.6. UBICACIÓN DE POSTES DE LUZ</li>
+                          </ul>
+                        </li>
+                        <li>    2.13.4. CONTROLES DE CALIDAD EN LA ETAPA DE EJECUCIÓN</li>
+                       </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li>3. ESPECIFICACIONES TÉCNICAS</li>
+                <li>4. METRADOS
+                    <ul class="collapsibleList">
+                        <li>4.1. RESUMEN DE METRADOS</li>
+                        <li>4.2. PLANILLA DE METRADOS POR ITEMS</li>
+                        <li>4.3. FLETE TERRESTRE, MOVILIZACIÓN Y DESMOVILIZACIÓN DE MAQUINARIA</li>
+                    </ul>
+                </li>
+                <li>5. PRESUPUESTOS
+                    <ul class="collapsibleList">
+                    <li>5.1. ANÁLISIS DE COSTOS UNITARIOS</li>
+                    <li>5.2. RELACIÓN DE INSUMOS</li>
+                    <li>5.3. RESUMEN DE PRESUPUESTO</li>
+                    <li>5.4. PRESUPUESTO</li>
+                    <li>5.5. PRESUPUESTO ANALÍTICO
+                        <ul class="collapsibleList">
+                        <li>    5.5.1. GASTOS GENERALES</li>
+                        <li>    5.5.2. GASTOS SUPERVISIÓN</li>
+                        <li>    5.5.3. GASTOS DE EXPEDIENTE TÉCNICO</li>
+                        <li>    5.5.4. GASTOS DE LIQUIDACIÓN</li>
+                        </ul>
+                    </li>
+                    <li>5.6. FÓRMULA POLINÓMICA</li>
+                    </ul>
+                </li>
+                <li>6. CRONOGRAMA
+                    <ul class="collapsibleList">
+                        <li>6.1. DIAGRAMA DE GANTT</li>
+                        <li>6.2. CRONOGRAMA VALORIZADO DE OBRAS</li>
+                        <li>6.3. CRONOGRAMA DE ADQUISICIÓN DE MATERIALES</li>
+                    </ul>
+                </li>
+                <li>7. ESTUDIOS BÁSICOS
+                    <ul class="collapsibleList">
+                    <li>7.1. ESTUDIO TOPOGRÁFICO
+                        <ul class="collapsibleList">
+                            <li>    7.1.1. INTRODUCCIÓN</li>
+                            <li>    7.1.2. ASPECTOS GENERALES</li>
+                            <li>    7.1.3.. METODOLOGÍA DEL LEVANTAMIENTO TOPOGRÁFICO</li>
+                            <li>    7.1.4. TRABAJOS DE CAMPO</li>
+                            <li>    7.1.5. TRABAJOS DE GABINETE</li>
+                            <li>    7.1.6. DATA TOPOGRÁFICA</li>
+                            <li>    7.1.7. ESPECIFICACIONES TÉCNICAS DE LOS EQUIPOS EMPLEADOS</li>
+                            <li>    7.1.8. CONCLUSIONES Y RECOMENDACIONES</li>
+                            <li>    7.1.9. PANEL FOTOGRÁFICO CON DESCRIPCIÓN</li>
+                        </ul>
+                    </li>
+                    <li>7.2. ESTUDIO DE MECÁNICA DE SUELOS Y GEOTECNIA
+                        <ul class="collapsibleList">
+                            <li>    7.2.1. EVALUACIÓN DE LA SUBRASANTE CON FINES DE PAVIMENTACIÓN</li>
+                            <li>    7.2.1. INTRODUCCIÓN</li>
+                            <li>    7.2.2. ASPECTOS GENERALES</li>
+                            <li>    7.2.3. METODOLOGÍA PARA EL CÁLCULO DE PARÁMETROS HIDROLÓGICOS</li>
+                            <li>    7.2.4. TRABAJOS DE CAMPO</li>
+                            <li>    7.2.5. TRABAJOS DE GABINETE</li>
+                            <li>    7.2.6. CÁLCULOS Y ENSAYOS DE LABORATORIO</li>
+                            <li>    7.2.7. CONCLUSIONES Y RECOMENDACIONES</li>
+                        </ul>
+                    </li>
+                    <li>7.3. ESTUDIO HIDROLOGICO - HIDRAULICO - HIDROGEOLÓGICO (ACUÍFEROS)</li>
+                    <li>7.4. ESTUDIO DE IMPACTO AMBIENTAL
+                        <ul class="collapsibleList">
+                            <li>    7.4.1. INTRODUCCIÓN</li>
+                            <li>    7.4.2. ASPECTOS GENERALES</li>
+                            <li>    7.4.3. METODOLOGÍA PARA LA EVALUACIÓN DEL IMPACTO</li>
+                            <li>    7.4.4. TRABAJOS DE GABINETE</li>
+                            <li>    7.4.5. CONCLUSIONES Y RECOMENDACIONES</li>
+                        </ul>
+                    </li>
+                    <li>7.5. ESTUDIO DE CANTERAS
+                        <ul class="collapsibleList">
+                            <li>    7.5.1. INTRODUCCIÓN</li>
+                            <li>    7.5.2. ASPECTOS GENERALES</li>
+                            <li>    7.5.3. METODOLOGÍA PARA EL ESTUDIO DE CANTERAS</li>
+                            <li>    7.5.4. TRABAJOS DE CAMPO</li>
+                            <li>    7.5.5. TRABAJOS DE GABINETE</li>
+                            <li>    7.5.6. CÁLCULOS Y ENSAYOS DE LABORATORIO</li>
+                            <li>    7.5.7. CONCLUSIONES Y RECOMENDACIONES</li>
+                            <li>    7.5.8. PANEL FOTOGRÁFICO CON DESCRIPCIÓN</li>
+                        </ul>
+                    </li>
+                    <li>7.6. ESTUDIO DE TRÁFICO
+                        <ul class="collapsibleList">
+                            <li>    7.6.1. INTRODUCCIÓN</li>
+                            <li>    7.6.2. ASPECTOS GENERALES		S</li>
+                            <li>    7.6.3. METODOLOGÍA PARA DETERMINAR EL VOLUMEN DE TRÁNSITO DE DISEÑO</li>
+                            <li>    7.6.4. TRABAJOS DE CAMPO</li>
+                            <li>    7.6.5. TRABAJOS DE GABINETE</li>
+                            <li>    7.6.6. DATA RECOLECTADA Y PROCESADA</li>
+                            <li>    7.6.7. CONCLUSIONES Y RECOMENDACIONES</li>
+                        </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li>8. INGENIERÍA DEL PROYECTO
+                    <ul class="collapsibleList">
+                    <li>8.1. DISEÑO GEOMÉTRICO
+                        <ul class="collapsibleList">
+                            <li>    8.1.1. NORMATIVA, REGLAMENTOS Y DOCUMENTOS TÉCNICOS UTILIZADOS</li>
+                            <li>    8.1.2. CONSIDERACIONES EN BASE AL ESTUDIO TOPOGRÁFICO</li>
+                            <li>    8.1.3. DESCRIPCIÓN DEL TRAZO</li>
+                            <li>    8.1.4. PARÁMETROS DE DISEÑO</li>
+                            <li>    8.1.5. DISEÑO INTERSECCIONES</li>
+                            <li>    8.1.6. DISEÑO CICLOVÍAS</li>
+                            <li>    8.1.7. INVENTARIO VÍAL</li>
+                        </ul>
+                    </li>
+                    <li>8.2. DISEÑO DE MEZCLAS</li>
+                    <li>8.3. DISEÑO DE ESTRUCTURAS
+                        <ul class="collapsibleList">
+                            <li>    8.3.1. VEREDAS</li>
+                            <li>    8.3.2. SARDINELES</li>
+                            <li>    8.3.3. MURO DE CONCRETO</li>
+                            <li>    8.3.4. ACEQUIAS</li>
+                        </ul>
+                    </li>
+                    <li>8.4. DISEÑO PAVIMENTO
+                        <ul class="collapsibleList">
+                            <li>    *******PAVIMENTOS RÍGIDOS********</li>
+                            <li>    8.4.1. NORMATIVA Y REGLAMENTOS UTILIZADOS</li>
+                            <li>    8.4.2. CONSIDERACIONES EN BASE AL ESTUDIO DE MECÁNICA DE SUELOS Y ESTUDIO DE TRÁFICO</li>
+                            <li>    8.4.3. CONCEPTOS GENERALES PARA EL DISEÑO DE PAVIMENTOS</li>
+                            <li>    8.4.4. DEFINICIÓN DE LOS ELEMENTOS QUE CONFORMAN EL PAVIMENTO</li>
+                            <li>    8.4.5. ESTUDIO Y ANÁLISIS</li>
+                            <li>    8.4.6. PROPIEDADES ESTRUCTURALES DEL SISTEMA PAVIMENTO - SUELO</li>
+                            <li>    8.4.7. POSICIÓN RELATIVA DE LAS CARGAS</li>
+                            <li>    8.4.8. EL TIPO DE CARGA</li>
+                            <li>    8.4.9. COMPARACIÓN POR EL TIPO DE VÍA Y ESTRUCTURA DEL PAVIMENTO</li>
+                            <li>    8.4.10. DETERMINACIÓN DEL PERÍODO DE DISEÑO</li>
+                            <li>    8.4.11. CÁLCULO MEDIANTE EL MÉTODO AASHTO 1993</li>
+                            <li>    8.4.12. CÁLCULO MEDIANTE EL MÉTODO PCA PARA e=7.5"</li>
+                            <li>    *******PAVIMENTOS FLEXIBLES*******</li>
+                            <li>    8.4.1. NORMATIVA Y REGLAMENTOS UTILIZADOS</li>
+                            <li>    8.4.2. CONSIDERACIONES EN BASE AL ESTUDIO DE MECÁNICA DE SUELOS Y ESTUDIO DE TRÁFICO</li>
+                            <li>    8.4.3. CONCEPTOS GENERALES PARA EL DISEÑO DE PAVIMENTOS</li>
+                            <li>    8.4.4. DEFINICIÓN DE LOS ELEMENTOS QUE CONFORMAN EL PAVIMENTO</li>
+                        </ul>
+                    </li>
+                    <li>8.5. DISEÑO DE JUNTAS
+                        <ul class="collapsibleList">
+                            <li>    8.5.1. NORMATIVA, REGLAMENTOS Y DOCUMENTOS TÉCNICOS UTILIZADOS</li>
+                            <li>    8.5.2. CONSIDERACIONES EN BASE AL DISEÑO DE PAVIMENTOS</li>
+                            <li>    8.5.3. JUNTAS LONGITUDINALES</li>
+                            <li>    8.5.4. JUNTAS DE DILATACIÓN</li>
+                            <li>    8.5.5. DISEÑO DEL ACERO DE TEMPERATURA</li>
+                            <li>    8.5.6. DISEÑO DE PASADORES</li>
+                            <li>    8.5.7. CÁLCULO DE JUNTAS LONGITUDINALES</li>
+                            <li>    8.5.8. CÁLCULO DE JUNTAS DE DILATACIÓN</li>
+                            <li>    8.5.9. CÁLCULO DE JUNTAS DE CONTRACCIÓN</li>
+                            <li>    8.5.10. CÁLCULO DE ACERO DE TEMPERATURA</li>
+                        </ul>
+                    </li>
+                    <li>8.6. DISEÑO SISTEMA DE DRENAJE Y SUBDRENAJE
+                        <ul class="collapsibleList">
+                            <li>    8.6.1. NORMATIVA, REGLAMENTOS Y DOCUMENTOS TÉCNICOS UTILIZADOS</li>
+                            <li>    8.6.2. CONSIDERACIONES EN BASE AL ESTUDIO DE MECÁNICA DE SUELOS Y ESTUDIO HIDROLÓGICO</li>
+                            <li>    8.6.3. EVALUACIÓN SITUACIÓN ACTUAL</li>
+                            <li>    8.6.4. SOLUCIONES PLANTEADAS</li>
+                            <li>    8.6.5. OBRAS DE DRENAJE PLANTEADAS</li>
+                        </ul>
+                    </li>
+                    <li>8.7. SEÑALIZACIÓN
+                        <ul class="collapsibleList">
+                            <li>    8.7.1. NORMATIVA Y REGLAMENTOS UTILIZADOS</li>
+                            <li>    8.7.2. CONSIDERACIONES EN BASE AL ESTUDIO DE TRÁFICO Y DISEÑO GEOMÉTRICO</li>
+                            <li>    8.7.1. SEÑALIZACIÓN VERTICAL</li>
+                            <li>    8.7.2. SEÑALIZACIÓN HORIZONTAL</li>
+                            <li>    8.7.3. SEMAFORIZACIÓN</li>
+                        </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li>9. PLANOS
+                    <ul class="collapsibleList">
+                    <li>9.1. UBICACIÓN Y LOCALIZACIÓN</li>
+                    <li>9.2. PLANTA TOPOGRÁFICA (ESTADO ACTUAL)</li>
+                    <li>9.3. LEVANTAMIENTO TOPOGRÁFICO</li>
+                    <li>9.4. SERVICIOS EXISTENTES, REDES Y CONEXIONES DE AGUA, DESAGÜE Y POSTES DE ALUMBRADO Y TELEFONÍA</li>
+                    <li>9.5. PLANTA DE DISTRIBUCIÓN GENERAL</li>
+                    <li>9.6. PLANO DETALLE DE PAVIMENTO</li>
+                    <li>9.7. PLANO BOCACALLE Y MARTILLOS</li>
+                    <li>9.8. PLANO VEREDAS Y RAMPAS</li>
+                    <li>9.9. PLANO DE BENEFICIARIOS</li>
+                    <li>9.10. PLANO FOTOGRÁFICOS</li>
+                    <li>9.11. PLANO DE BOTADERO</li>
+                    <li>9.12. PLANO DE CALICATAS</li>
+                    <li>9.13. PLANO DE CANTERAS</li>
+                    <li>9.14. PLANO DE SEÑALIZACIÓN</li>
+                    <li>9.15. SECCIONES TRANSVERSALES</li>
+                    </ul>
+                </li>
+                <li>10. ANEXOS Y DOCUMENTOS
+                    <ul class="collapsibleList">
+                    <li>10.1. REGISTRO DE PROYECTO DE INVERSION (FORMATO N°07-A, ETC)</li>
+                    <li>10.2. FICHA TÉCNICA ESTANDAR PARA LA FORMULACION Y EVALUACION DE PROYECTOS DE INVERSION EN CARRETERAS INTERURBANAS</li>
+                    <li>10.3. MANUAL DE OPERACIÓN Y MANTENIMIENTO</li>
+                    <li>10.4. PANEL FOTOGRÁFICO CON DESCRIPCIÓN</li>
+                    <li>10.5. DOCUMENTOS QUE GARANTICEN LA OPERACIÓN Y  MANTENIMIENTO</li>
+                    <li>10.6. DOCUMENTOS QUE GARANTICEN LA LIBRE DISPONIBILIDAD DEL TERRENO</li>
+                    <li>10.7. CERTIFICACIÓN AMBIENTAL</li>
+                    <li>10.8. CERTIFICADO DE INEXISTENCIA DE RESTOS ARQUEOLÓGICOS (CIRA)</li>
+                    <li>10.9. POBLACIÓN BENEFICIARIA</li>
+                    <li>10.10. *DECLARACIÓN JURADA DE LA UNIDAD EJECUTORA DE OBTENER LA AUTORIZACIÓN DE VERTIMIENTO DE AGUAS RESIDUALES TRATADAS DEL ANA.</li>
+                    <li>10.11. DISCO COMPACTO CD – VERSIÓN DIGITAL</li>
+                    <li>10.12. RESOLUCION DE APROBACION DEL EXPEDIENTE TÉCNICO</li>
+                    <li>10.13. FIRMA Y SELLO DE LOS PROFESIONALES ESPECIALISTAS</li>
+                    </ul>
+                </li>
+                </ul>
+            </section>
+            <div class="resizer"></div>
+            <div class="window">
+                <div class="window_child">
+                    <iframe width="1020" height="530" src="https://www.youtube.com/embed/cWm17Hxvlvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>  
+            </div>
+        </div>
+
+        <!--Scripts -->
+        <script src="static/EXP_PUBcssjs/script.js"></script>
+
+        <footer class="small text-center text-muted">
+            © Todos los Derechos Reservados. v2.0
+        </footer>
+
+    </body>
+    
+</html>

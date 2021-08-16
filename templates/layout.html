@@ -19,7 +19,7 @@
         <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Cubicorn ico -->
+        <!-- Main ico -->
         <link href="/static/favicon.ico" rel="icon">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
@@ -28,11 +28,6 @@
         
         <!-- AOS Library -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-        <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
         <title>MAIN - Ingenieria del Futuro {% block title %}{% endblock %}</title>
 
@@ -46,10 +41,10 @@
 
         <nav class="navbar navbar-expand-md fixed-top navbar-light" >
             <a href="/"><img src='static/MAIN.gif' style='height: 50px;' alt=''></a>
-            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbar">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 {% if session.user_id %}
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="/quote">Registrar productos</a></li>
@@ -60,8 +55,18 @@
                     </ul>
                 {% else %}
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link" href="/develop" style="font-size: 0.8rem;">Somos Comunidad <br> ¡Mejoremos Juntos!</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/costos">Costos</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Expedientes Técnicos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="/exptecnicos">Buscador de Expedientes</a></li>
+                              <li><a class="dropdown-item" href="/exp_publicos">Partes de un Expediente</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item"><a class="nav-link" href="/costos">Costos</a></li>
+                          <li class="nav-item"><a class="nav-link" href="/develop" style="font-size: 0.8rem; line-height: 15px;">Somos Comunidad <br> ¡Mejoremos Juntos!</a></li>
+    
                         <!--<li class="nav-item"><a class="nav-link" href="/develop" >Register</a></li>
                         <li class="nav-item"><a class="nav-link" href="/develop">Log In</a></li>-->
                     </ul>
@@ -93,6 +98,10 @@
         <!--Own Scripts -->
         <script src="static/script.js"></script>
 
+        <!-- Scripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   
     </body>
     <!--AOS Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

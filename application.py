@@ -60,6 +60,9 @@ def index():
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
+# -------------------------------------------------------------------------------------------------------------------------------------
+# ----------------------------------PAGINA COTIZACIONES.HTML-------------------------------
+
 @app.route("/costos")
 def main():
     cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
@@ -166,7 +169,43 @@ def unidades_materiales():
     return jsonify(OutputArray)
 # -------------------------------------------------------------------------------------------------------------------------------------
 
+# ----------------------------------PAGINA EXPTECNICOS.HTML-------------------------------
+@app.route("/exptecnicos")
+def main2():
+    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur.execute("SELECT * FROM departamentos ORDER BY nombre_dpto")
+    departamentos = cur.fetchall()
+    return render_template('exptecnicos.html', departamentos=departamentos)
+    
 
+@app.route("/livesearch",methods=["POST","GET"])
+def livesearch():
+    cursor = mysql.connection.cursor()
+    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    if request.method == 'POST':
+        codigo_dpto = request.form['query']
+        cur.execute("select * from exptecnicos where cod_departamento = %s order by nombre_pro", [codigo_dpto])
+        numrows = int(cur.rowcount)
+        rows = cur.fetchall()
+        OutputArray = []
+        for row in rows:
+            outputObj = {
+                'distrito': row['distrito'],
+                'nombre': row['nombre_pro'],
+                'universidad': row['universidad'],
+                'autores': row['autores']}
+            OutputArray.append(outputObj)
+
+    return jsonify({'htmlresponse': render_template('respuesta3.html', OutputArray=OutputArray, numrows=numrows)})
+
+@app.route("/exp_publicos")
+def exp_publicos():
+    return render_template('EXP_PUB/exp_publicos.html')
+
+@app.route("/pistasveredas")
+def pistasveredas():
+    return render_template('EXP_PUB/pistasveredas.html')
+# -------------------------------------------------------------------------------------------------------------------------------------
 
 
 @app.route("/login", methods=["GET", "POST"])

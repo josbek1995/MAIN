@@ -1,0 +1,556 @@
+            <section class="window">
+                <ul class="collapsibleList">
+                <li style="list-style: none;"><b>ESTRUCTURA DE UN EXPEDIENTE DE <br> PISTAS Y VEREDAS</b></li><br>
+                <li>1. RESUMEN EJECUTIVO</li>
+                <li>2. MEMORIA DESCRIPTIVA
+                    <ul class="collapsibleList">
+                    <li>2.1. DATOS GENERALES
+                        <ul class="collapsibleList">
+                        <li>    2.1.1. NOMBRE DEL PROYECTO</li>
+                        <li>    2.1.2. CODIGO UNICO O SNIP</li>
+                        <li>    2.1.3. CADENA FUNCIONAL</li>
+                        <li>    2.1.4. LOCALIZACIÓN GEOGRÁFICA</li>
+                        <li>    2.1.5. MAPA DE UBICACIÓN</li>
+                        </ul>
+                    </li>
+                    <li>2.2. ANTECEDENTES</li>
+                    <li>2.3. OBJETIVOS</li>
+                    <li>2.4. SITUACION ACTUAL DEL AREA DEL PROYECTO
+                        <ul class="collapsibleList">
+                        <li>    2.4.1. DATA EXTRAIDA DEL INEI</li>
+                        </ul>
+                    </li>
+                    <li>2.5. INFRAESTRUCTURA DE SERVICIOS BASICOS
+                        <ul class="collapsibleList">
+                        <li>    2.5.1. VIVIENDA</li>
+                        <li>    2.5.2. TRANSPORTE</li>
+                        </ul>
+                    </li>
+                    <li>2.6. JUSTIFICACIÓN DEL PROYECTO</li>
+                    <li>2.7. DESCRIPCIÓN DE METAS A EJECUTAR</li>
+                    <li>2.8. COSTOS DEL PROYECTO</li>
+                    <li>2.9. FUENTES DE FINANCIAMIENTO</li>
+                    <li>2.10. MODALIDAD DE EJECUCIÓN</li>
+                    <li>2.11. SISTEMA DE CONTRATACIÓN</li>
+                    <li>2.12. PLAZO DE EJECUCIÓN</li>
+                    <li>2.13. OTROS
+                        <ul class="collapsibleList">
+                        <li>    2.13.1.	EPOCAS RECOMENDABLES PARA LA EJECUCIÓN DEL PROYECTO</li>
+                        <li>    2.13.2.	CANTERAS DE AGREGADOS Y ELIMINACIÓN DE DESMONTE</li>
+                        <li>    2.13.3. MAPAS DESCRIPTIVOS
+                            <ul class="collapsibleList">
+                            <li>            2.13.3.1. LUGARES PARA EL PARQUEO DE VEHÍCULOS</li>
+                            <li>            2.13.3.2. MAPA DESCRIPTIVO DE LA EXISTENCIA DE LÍNEAS DE DRENAJE URBANO</li>
+                            <li>            2.13.3.3. MAPA DESCRIPTIVO DE LA EXISTENCIA DE LÍNEAS DE SUMINISTRO DE AGUA POTABLE</li>
+                            <li>            2.13.3.4. UBICACIÓN DE ÁREAS VERDES</li>
+                            <li>            2.13.3.5. UBICACIÓN DE AFLUENTES PARA EL DRENAJE DE AGUAS PLUVIALES</li>
+                            <li>            2.13.3.6. UBICACIÓN DE POSTES DE LUZ</li>
+                          </ul>
+                        </li>
+                        <li>    2.13.4. CONTROLES DE CALIDAD EN LA ETAPA DE EJECUCIÓN</li>
+                       </ul>
+                    </li>
+                    </ul>
+                </li>
+                <li>3. ESPECIFICACIONES TÉCNICAS</li>
+                <li>4. METRADOS
+                    <ul class="collapsibleList">
+                        <li>4.1. RESUMEN DE METRADOS</li>
+                        <li>4.2. PLANILLA DE METRADOS POR ITEMS</li>
+                        <li>4.3. FLETE TERRESTRE, MOVILIZACIÓN Y DESMOVILIZACIÓN DE MAQUINARIA</li>
+                    </ul>
+                </li>
+                <li>5. PRESUPUESTOS
+                    <ul class="collapsibleList">
+                    <li>5.1. ANÁLISIS DE COSTOS UNITARIOS</li>
+                    <li>5.2. RELACIÓN DE INSUMOS</li>
+                    <li>5.3. RESUMEN DE PRESUPUESTO</li>
+                    <li>5.4. PRESUPUESTO</li>
+                    <li>5.5. PRESUPUESTO ANALÍTICO
+                        <ul class="collapsibleList">
+                        <li>    5.5.1. GASTOS GENERALES</li>
+                        <li>    5.5.2. GASTOS SUPERVISIÓN</li>
+                        <li>    5.5.3. GASTOS DE EXPEDIENTE TÉCNICO</li>
+                        <li>    5.5.4. GASTOS DE LIQUIDACIÓN</li>
+                        </ul>
+                    </li>
+                    <li>5.6. FÓRMULA POLINÓMICA</li>
+                    </ul>
+                </li>
+                <li>6. CRONOGRAMA
+                    <ul class="collapsibleList">
+                        <li>6.1. DIAGRAMA DE GANTT</li>
+                        <li>6.2. CRONOGRAMA VALORIZADO DE OBRAS</li>
+                        <li>6.3. CRONOGRAMA DE ADQUISICIÓN DE MATERIALES</li>
+                    </ul>
+                </li>
+                <li>7. ESTUDIOS BÁSICOS
+                    <ul class="collapsibleList">
+                    7.1. ESTUDIO TOPOGRÁFICO
+                        7.1.1. INTRODUCCIÓN
+                        7.1.2. ASPECTOS GENERALES
+                            7.1.2.1. OBJETIVO DEL ESTUDIO TOPOGRÁFICO
+                            7.1.2.2. DESCRIPCIÓN TOPOGRÁFICA
+                                7.1.2.2.1. UBICACIÓN POLÍTICA
+                                7.1.2.2.2. UBICACIÓN GEOGRÁFICA
+                                7.1.2.2.3. VÍAS DE ACCESO
+                                7.1.2.2.4. CONDICIONES DE LA ZONA DE TRABAJO
+                                7.1.2.2.5. ALTITUD ÁREA DEL PROYECTO
+                                7.1.2.2.6. ORDENES DE CONTROL TOPOGRÁFICO
+                                    7.1.2.2.6.1. PRECISIÓN PLANIMÉTRICA
+                                    7.1.2.2.6.2. PRECISIÓN ALTIMÉTRICA
+                            7.1.2.3. MARCO LEGAL - TÉCNICO
+                                7.1.2.3.1. NORMATIVIDAD GENERAL
+                                7.1.2.3.2. NORMATIVIDAD ESPECÍFICA
+                                7.1.2.3.3. REGLAMENTOS
+                                7.1.2.3.4. DOCUMENTOS TÉCNICOS
+                        7.1.3.. METODOLOGÍA DEL LEVANTAMIENTO TOPOGRÁFICO
+                            7.1.3.1. PLANEAMIENTO
+                                7.1.3.1.1. EQUIPOS UTILIZADOS
+                                7.1.3.1.2. PERSONAL
+                            7.1.3.2. RECONOCIMIENTO Y MONUMENTACIÓN
+                            7.1.3.3. TRABAJOS DE CAMPO
+                            7.1.3.4. TRABAJOS DE GABINETE
+                        7.1.4. TRABAJOS DE CAMPO
+                            7.1.4.1. DESCRIPCIÓN DE ACTIVIDADES REALIZADAS
+                            7.1.4.2. LEVANTAMIENTO DE LA POLIGONAL BASE
+                                7.1.4.2.1. VÉRTICES DE LA POLIGONAL
+                                7.1.4.2.1. PUNTOS DE LEVANTAMIENTO TOPOGRÁFICO
+                                7.1.4.2.1. RELACIÓN DE BMS - FICHAS TÉCNICAS BM's DE CONTROL
+                                7.1.4.2.1. LIBRETA DE NIVELACIÓN
+                                7.1.4.2.1. DATOS DE LAS SECCIONES TRANSVERSALES
+                            7.1.4.3. RED DE CONTROL HORIZONTAL
+                        7.1.5. TRABAJOS DE GABINETE
+                            7.1.5.1. PROCESAMIENTO DE INFORMACIÓN RECOLECTADA
+                            7.1.5.2. OBTENCIÓN DE ERRORES Y CORRECCIÓN
+                            7.1.5.3. SOFTWARE UTILIZADO
+                        7.1.6. DATA TOPOGRÁFICA
+                        7.1.7. ESPECIFICACIONES TÉCNICAS DE LOS EQUIPOS EMPLEADOS
+                            7.1.7.1. CERTIFICADO DE CALIBRACIÓN DEL EQUIPO TOPOGRÁFICO UTILIZADO
+                        7.1.8. CONCLUSIONES Y RECOMENDACIONES
+                        7.1.9. PANEL FOTOGRÁFICO CON DESCRIPCIÓN	
+                    7.2. ESTUDIO DE MECÁNICA DE SUELOS Y GEOTECNIA
+                        7.2.1. EVALUACIÓN DE LA SUBRASANTE CON FINES DE PAVIMENTACIÓN
+                        7.2.1. INTRODUCCIÓN
+                        7.2.2. ASPECTOS GENERALES
+                            7.2.2.1. OBJETIVO DEL ESTUDIO DE LA SUBRASANTE
+                            7.2.2.2. UBICACIÓN
+                            7.2.2.3. MARCO LEGAL - TÉCNICO
+                                7.2.2.3.1. NORMATIVIDAD GENERAL
+                                7.2.2.3.2. NORMATIVIDAD ESPECÍFICA
+                                7.2.2.3.3. REGLAMENTOS
+                                7.2.2.3.4. DOCUMENTOS TÉCNICOS
+                        7.2.3. METODOLOGÍA PARA EL CÁLCULO DE PARÁMETROS HIDROLÓGICOS
+                            7.5.3.1. CLASIFIFACIÓN DE SUELOS POR EL MÉTODO SUCS Y POR EL MÉTODO AASHTO
+                            7.5.3.2. ENSAYOS DE MECÁNICA DE SUELOS - PAVIMENTOS RÍGIDOS			
+                            7.2.3.1. TRABAJOS DE CAMPO
+                            7.2.3.2. TRABAJOS DE GABINETE
+                        7.2.4. TRABAJOS DE CAMPO
+                        7.2.5. TRABAJOS DE GABINETE
+                            PERFILES ESTRATIGRÁFICOS CON FOTOS
+                        7.2.6. CÁLCULOS Y ENSAYOS DE LABORATORIO
+                            CONTENIDO DE HUMEDAD DEL SUELO MTC E 108 - 2000, Basado en la Norma ASTM D-2216
+                            ANÁLISIS GRANULOMÉTRICO POR TAMIZADO MTC E 107 - 2000, Basado en la Norma ASTM D-422 y AASHTO T-88
+                            LÍMITE LÍQUIDO MTC E 110 - 2000, Basado en la Norma ASTM D-4318 y AASHTO T-89
+                            LÍMITE PLÁSTICO MTC E 111 - 2000, Basado en la Norma ASTM D-4318 y AASHTO T-90
+                        7.2.7. CONCLUSIONES Y RECOMENDACIONES
+                    7.3. ESTUDIO HIDROLOGICO - HIDRAULICO - HIDROGEOLÓGICO (ACUÍFEROS)
+                        7.3.1. INTRODUCCIÓN
+                        7.3.2. ASPECTOS GENERALES
+                            7.3.2.1. OBJETIVO DEL ESTUDIO HIDROLÓGICO			
+                            7.3.2.2. DESCRIPCIÓN ZONA ESTUDIO
+                                7.3.2.2.1. HIDROGRAFÍA
+                                7.3.2.2.2. CLIMA Y PRECIPITACIÓN
+                                7.3.2.2.3. VEGETACIÓN
+                                7.3.2.2.3. RELIEVE
+                            7.3.2.3. MARCO LEGAL - TÉCNICO
+                                7.3.2.3.1. NORMATIVIDAD GENERAL
+                                7.3.2.3.2. NORMATIVIDAD ESPECÍFICA
+                                7.3.2.3.3. REGLAMENTOS
+                                7.3.2.3.4. DOCUMENTOS TÉCNICOS
+                        7.3.3. METODOLOGÍA PARA EL CÁLCULO DE PARÁMETROS HIDROLÓGICOS			
+                            7.3.3.1. TRABAJOS EN CAMPO*
+                            7.3.3.2. TRABAJOS EN GABINETE
+                        7.3.4. TRABAJOS DE GABINETE
+                            7.3.4.1. ANÁLISIS HIDROLÓGICO
+                            7.3.4.2. INFORMACIÓN BÁSICA
+                                7.3.4.2.1. INFORMACIÓN CARTOGRÁFICA
+                                7.3.4.2.2. INFORMACIÓN PUVLIOMÉTRICA
+                            7.3.4.3. EQUIPO
+                            7.3.4.4. PROGRAMAS DE COMPUTO
+                            7.3.4.5. HIDROLOGÍA ESTADÍSTICA
+                                7.3.4.5.1. ANÁLISIS DE LA INFORMACIÓN PLUVIOMÉTRICA
+                                7.3.4.5.2. PRECIPITACIÓN MÁXIMA EN 24 HORAS
+                                7.3.4.5.3. ANÁLISIS DE FRECUENCIAS
+                                7.3.4.5.4. PRUEBA DE SMIRNOV KOLMOGOROV
+                                7.3.4.5.5. INTENSIDADES DE LLUVIA
+                                7.3.4.5.6. INTENSIDAD DE DISEÑO PARA DURACIONES MENORES A 24 HORAS (CURVA (I-D-F))
+                                7.3.4.5.7. PERIODO DE RECURRENCIA PARA ESTRUCTURAS DE DRENAJE
+                            7.3.4.6. SUBCUENCAS HIDROGRÁFICAS
+                            7.3.4.7. ANÁLISIS DE CAUDALES EXTREMOS O DE DISEÑO
+                            7.3.4.8. METODO PARA ESTIMAR CAUDALES EXTREMOS
+                                7.3.4.8.1. MÉTODO RACIONAL
+                                    7.3.4.8.1.1. TIEMPO DE CONCENTRACIÓN (TC)
+                                    7.3.4.8.1.2. CÁLCULO DE INTENSIDAD DE LLUVIA
+                                    7.3.4.8.1.3. CAUDAL DE DISEÑO 
+                                7.3.4.8.2. MÉTODO DEL HIDROGRAMA UNITARIO SINTÉTICO
+                                    7.3.4.8.2.1. DESCARGA MÁXIMA
+                        7.3.5. CONCLUSIONES Y RECOMENDACIONES
+                    7.4. ESTUDIO DE IMPACTO AMBIENTAL
+                        7.4.1. INTRODUCCIÓN
+                        7.4.2. ASPECTOS GENERALES
+                            7.4.2.1. OBJETIVO DEL ESTUDIO AMBIENTAL
+                            7.4.2.2. LINEA BASE AMBIENTAL
+                                7.4.2.1. AMBITO FÍSICO
+                                    7.4.2.1.1. GEOMORFOLOGIA
+                                    7.4.2.1.2. GEOLOGIA
+                                    7.4.2.1.3. CLIMA Y METEOROLOGÍA 
+                                    7.4.2.1.4. HIDROLOGIA
+                                    7.4.2.1.5. SISMICIDAD
+                                    7.4.2.1.6. CAPACIDAD DE USO DE TIERRAS
+                                7.4.2.2. AMBIENTE BIOLÓGICO
+                                    7.4.2.2.1. ECOLOGIA
+                                    7.4.2.2.2. FLORA
+                                    7.4.2.2.3. FAUNA
+                                    7.4.2.2.4. ZONAS NATURALES PROTEGIDAS POR EL ESTADO
+                                7.4.2.3. AMBIENTE DE INTERÉS HUMANO
+                                    7.4.2.3.1. PATRIMONIO ARQUEOLÓGICO
+                                    7.4.2.3.2. RECURSOS CULTURALES
+                                    7.4.2.3.3. RECURSOS ECOTURISTICOS
+                                7.4.2.4. CARACTERÍSTICAS SOCIOCULTURALES
+                                    7.4.2.4.1. POBLACIÓN TOTAL 
+                                    7.4.2.4.2. POBLACION ECONÓMICAMENTE ACTIVA
+                                    7.4.2.4.3. FLUJOS MIGRATORIOS Y POBLACIÓN DESPLAZADA
+                                    7.4.2.4.4. ESTACIONALIDAD Y DISPONIBILIDAD DE LA MANO DE OBRA
+                                    7.4.2.4.5. IDIOMA PREDOMINANTE
+                                    7.4.2.4.6. ACTIVIDAD ECONOMICA
+                                    7.4.2.4.7. SALUD Y EDUCACION
+                            7.4.2.3. MARCO LEGAL - TÉCNICO
+                                7.4.2.3.1. NORMATIVIDAD GENERAL
+                                7.4.2.3.2. NORMATIVIDAD ESPECÍFICA
+                                7.4.2.3.3. REGLAMENTOS
+                                7.4.2.3.4. DOCUMENTOS TÉCNICOS
+                        7.4.3. METODOLOGÍA PARA LA EVALUACIÓN DEL IMPACTO
+                            7.4.3.1. ETAPA PRELIMINAR DE TRABAJOS DE GABINETE
+                                7.4.3.1.1. RECOPILACIÓN Y ANÁLISIS DE LA INFORMACIÓN SOCIOAMBIENTAL PRELIMINAR
+                                7.4.3.1.2. PLANEAMIENTO DE LA ETAPA DE CAMPO
+                            7.4.3.2. ETAPA DE TRABAJOS DE CAMPO
+                                7.4.3.2.1. EVALUACIÓN AMBIENTAL DEL ÁREA DEL PROYECTO
+                                7.4.3.2.2. RECOPILACIÓN DE INFORMACIÓN SOCIOAMBIENTAL COMPLEMENTARIA
+                            7.4.3.3. ETAPA FINAL DE TRABAJOS DE GABINETE
+                                7.4.3.3.1. PROCESAMIENTO Y ANÁLISIS DE LA INFORMACIÓN OBTENIDA
+                                7.4.3.3.2. DESARROLLO DE LA DIA
+                        7.4.4. TRABAJOS DE GABINETE
+                            7.4.4.1. ÁREA DE INFLUENCIA DEL PROYECTO
+                                7.4.4.1.1. ÁREA DE INFLUENCIA INDIRECTA (AII)
+                                7.4.4.1.2. ÁREA DE INFLUENCIA DIRECTA (AID)
+                                7.4.4.1.3. ÁREA DE INFLUENCIA SOCIAL (AIS)
+                            7.4.4.2. EVALUACIÓN DE LAS CONDICIONES DEL PROYECTO
+                                7.4.3.1.3. MAQUINARIA Y EQUIPOS A UTILIZAR DURANTE EL PROYECTO
+                                7.4.3.1.4. TIPOS Y CARACTERISTISA DE LOS INSUMOS A UTILIZAR
+                                7.4.3.1.5. DESCRIPCION DE LAS ACTIVIDADES PREVIAS AL PROYECTO
+                                7.4.3.1.6. DESCRIPCION DE LAS ACTIVIDADES PROPIAS AL PROYECTO
+                                7.4.3.1.7. CRONOGRAMA DE ACTIVIDADES
+                            7.4.4.3. IDENTIFICACIÓN DE IMPACTOS AMBIENTALES POTENCIALES
+                                7.4.4.3.1. EN LA FASE DE CONSTRUCCIÓN
+                                7.4.4.3.2. EN LA FASE DE ABANDONO
+                                7.4.4.3.3. EN LA FASE DE FUNCIONAMIENTO
+                                7.4.4.3.4. ANÁLISIS DE LAS RELACIONES ENTRE ACCIONES IMPACTANTES Y FACTORES IMPACTADOS
+                                    7.4.4.3.4.1. MEDIO AMBIENTE
+                                    7.4.4.3.4.2. MEDIO SOCIOECONÓMICO
+                            7.4.4.4. EVALUACIÓN DE IMPACTOS AMBIENTALES
+                                7.4.4.4.1. IMPACTOS SOCIALES
+                                7.4.4.4.2. IMPACTOS AMBIENTALES
+                                7.4.4.4.3. DESCRIPCION DE LOS PRINCIPALES IMPACTOS AMBIENTALES
+                            7.4.4.5. PLAN DE MANEJO AMBIENTAL
+                                7.4.4.5.1. PROGRAMA DE PREVENCION Y/O MITIGACION 
+                                7.4.4.5.2. PROGRAMA DE MONITOREO Y SEGUIMIENTO AMBIENTAL
+                                7.4.4.5.3. PROGRAMA DE MANEJO DE CANTERAS Y BOTADEROS
+                                7.4.4.5.4. PROGRAMA DE MANEJO DE CAMPAMENTO Y PATIO DE MAQUINAS.
+                                7.4.4.5.5. PROGRAMA DE REFORESTACION.
+                                7.4.4.5.6. PROGRAMA DE MANEJO DE DESECHOS SÓLIDOS Y LIQUIDOS.
+                                7.4.4.5.7. PROGRAMA DE MANEJO DE EXPLOSIVOS
+                                7.4.4.5.8. PROGRAMA DE CIERRE O ABANDONO DE CAMPAMENTOS Y PATIO DE MAQUINAS
+                                7.4.4.5.9. PROGRAMA DE MANEJO SOCIAL
+                                7.4.4.5.10. PROGRAMA DE MANEJO DE CONTINGENCIAS
+                        7.4.5. CONCLUSIONES Y RECOMENDACIONES
+                    7.5. ESTUDIO DE CANTERAS
+                        7.5.1. INTRODUCCIÓN
+                        7.5.2. ASPECTOS GENERALES
+                            7.5.2.1. OBJETIVOS DEL ESTUDIO DE CANTERAS
+                            7.5.2.2. CARACTERÍSTICAS DE LAS CANTERAS
+                                7.5.2.2.1. DESCRIPCIÓN DE CANTERAS
+                                7.5.2.2.2. UBICACIÓN DE CANTERAS
+                                7.5.2.2.3. ACCESIBILIDAD
+                                7.5.2.2.4. PROPIETARIO
+                                7.5.2.2.5. POTENCIA
+                                7.5.2.2.6. RENDIMIENTO
+                                7.5.2.2.7. EVALUACIÓN
+                                7.5.2.2.8. PROCESAMIENTO
+                            7.5.2.3. MARCO LEGAL - TÉCNICO
+                                7.5.2.3.1. NORMATIVIDAD GENERAL
+                                7.5.2.3.2. NORMATIVIDAD ESPECÍFICA
+                                7.5.2.3.2. REGLAMENTOS
+                                7.5.2.3.2. DOCUMENTOS TÉCNICOS	
+                        7.5.3. METODOLOGÍA PARA EL ESTUDIO DE CANTERAS
+                            7.5.3.1. CLASIFIFACIÓN DE SUELOS POR EL MÉTODO SUCS Y POR EL MÉTODO AASHTO
+                            7.5.3.2. ENSAYOS DE MECÁNICA DE SUELOS - CANTERAS
+                        7.5.4. TRABAJOS DE CAMPO
+                            7.5.4.1. RECOLECCIÓN DE MUESTRAS PARA ESTUDIO
+                        7.5.5. TRABAJOS DE GABINETE
+                            7.5.5.1. DESCRIPCIÓN DE ESTRATOS CON FOTOS
+                                7.5.5.1. PROFUNDIDAD
+                                7.5.5.1. NÚMERO DE MUESTRA
+                                7.5.5.1. DESCRIPCIÓN ESTRATO
+                                7.5.5.1. CLASIFICACIÓN SUCS
+                                7.5.5.1. CLASIFICACIÓN AASHTO
+                        7.5.6. CÁLCULOS Y ENSAYOS DE LABORATORIO
+                            7.5.6.2. ANÁLISIS GRANULOMÉTRICO POR TAMIZADO MTC E 204
+                            7.5.6.3. CONTENIDO DE HUMEDAD NATURAL MTC E 108
+                            7.5.6.4. LÍMITE LÍQUIDO (LL) MTC E 110
+                            7.5.6.5. LÍMITE PLÁSTICO (LP) MTC E 111
+                            7.5.6.6. COMPACTACIÓN MTC E 115
+                            7.5.6.7. ABRASIÓN LOS ÁNGELES MTC E 207
+                            7.5.6.8. EQUIVALENTE DE ARENA MTC E 114
+                            7.5.6.9. PESO ESPECÍFICO DE LOS AGREGADOS
+                                7.5.6.9.1. AGREGADO GRUESO MTC E 206
+                                7.5.6.9.2. AGREGADO FINO MTC E 205
+                            7.5.6.10. PESO UNITARIO MTC E 203
+                                7.5.6.10.1. AGREGADO FINO SIN VARILLAR
+                                7.5.6.10.2. AGREGADO FINO VARILLADO
+                                7.5.6.10.3. AGREGADO GRUESO SIN VARILLAR
+                                7.5.610.4. AGREGADO GRUESO VARILLADO
+                            7.5.6.11. ENSAYO DE SALES SOLUBLES NTP 339.152 / BS 1377
+                            7.5.6.12. ENSAYO DE SULFATOS SOLUBLES NTP 339.178 / AASHTO T290
+                            7.5.6.13. ENSAYO DE CLORUROS SOLUBLES NORMA AASHTO T291 - NTP 339.177
+                            7.5.6.14. ENSAYO DE INALTERABILIDAD DE ARIDOS POR EL USO DE SULFATO DE MAGNESIO MTC E 209
+                            7.5.6.15. IMPUREZAS ORGÁNICAS MTC E 213
+                            7.5.6.16. ENSAYO DE ADHERENCIA AGREGADO - BITUMEN MTC E 520
+                            7.5.6.17. RIEDEL WEBER MTC M 220
+                            7.5.6.18. ENSAYO DE CBR MTC E 132
+                        7.5.7. CONCLUSIONES Y RECOMENDACIONES
+                        7.5.8. PANEL FOTOGRÁFICO CON DESCRIPCIÓN
+                    7.6. ESTUDIO DE TRÁFICO
+                        7.6.1. INTRODUCCIÓN
+                            MÉTODO AASHTO (1993)
+                        7.6.2. ASPECTOS GENERALES		
+                            7.6.2.1. OBJETIVOS DEL ESTUDIO DE TRÁFICO
+                            7.6.2.2. ESTADO ACTUAL DEL TRÁNSITO Y LAS VÍAS
+                            7.6.2.3. MARCO LEGAL - TÉCNICO
+                                7.6.2.3.1. NORMATIVIDAD GENERAL
+                                7.6.2.3.2. NORMATIVIDAD ESPECÍFICA
+                                7.6.2.3.2. REGLAMENTOS
+                                7.6.2.3.2. DOCUMENTOS TÉCNICOS
+                        7.6.3. METODOLOGÍA PARA DETERMINAR EL VOLUMEN DE TRÁNSITO DE DISEÑO
+                            7.6.3.1. ETAPA DE PLANIFICACIÓN
+                                7.6.3.1.1.CLASIFICACIÓN Y CARACTERÍSTICAS DE LOS VEHÍCULOS (CON FOTO)
+                                    7.6.3.1.1.1. VEHICULOS MOTORIZADOS
+                                        7.6.3.1.1.1.1. VEHICULOS LIGEROS
+                                        7.6.3.1.1.1.2. VEHICULOS PESADOS
+                                    7.6.3.1.1.2. VEHICULOS NO MOTORIZADOS
+                                7.6.3.1.2. TRÁFICO VEHICULAR - OBTENCIÓN DEL TRÁNSITO PROMEDIO DIARIO SEMANAL TPDS
+                                    7.6.3.1.2.1. EVALUACIÓN TPDS EN LA VÍA DEL PROYECTO
+                                    7.6.3.1.2.2. EVALUACIÓN TPDS EN OTRA VÍA CON MISMAS CARACTERÍSTICAS DE ZONA
+                                    7.6.3.1.2.3. ESTUDIO ORIGEN - DESTINO
+                            7.6.3.2. ETAPA DE ORGANIZACIÓN
+                                7.6.2.3.2.1. FORMATO DE CONTEO VEHICULAR
+                                7.6.2.3.2.2. CRONOGRAMA DE REALIZACIÓN DE AFOROS
+                            7.6.3.3. ETAPA DE EJECUCIÓN - TRABAJOS DE CAMPO
+                            7.6.3.4. ETAPA DE PROCESAMIENTO - TRABAJOS DE GABINETE
+                        7.6.4. TRABAJOS DE CAMPO
+                            7.6.4.1. DESCRIPCIÓN DE ACTIVIDADES REALIZADAS
+                            7.6.4.2. AFORO VEHICULAR	
+                            7.6.4.3. AFORO PEATONAL
+                        7.6.5. TRABAJOS DE GABINETE
+                            7.6.5.1. ESTRATIGRAFÍA DE EJES
+                            7.6.5.2. VEHÍCULO DE DISEÑO
+                            7.6.5.3. PERÍODO DE DISEÑO
+                            7.6.5.4. CARRIL DE DISEÑO
+                            7.6.5.5. VOLUMEN DE TRÁNSITO PROMEDIO DIARIO (TPD)
+                            7.6.5.6. TRÁNSITO DIARIO DE VEHICULOS
+                                7.6.5.6.1 TRÁNSITO DIARIO DE VEHICULOS LIGEROS
+                                7.6.5.6.1 TRÁNSITO DIARIO DE VEHICULOS PESADOS
+                            7.6.5.7. CÁLCULO PORCENTAJE DE VEHÍCULOS
+                            7.6.5.8. CÁLCULO DEL TRÁNSITO PROMEDIO DIARIO
+                            7.6.5.9. TRÁFICO EQUIVALENTE A EJE DE REFERENCIA
+                                7.6.5.9.1. CÁLCULO DEL FACTOR DE EQUIVALENCIA DE CARGA (FL)
+                            7.6.5.10. DETERMINACIÓN DE LA ESTRATIGRAFIA DE EJES
+                            7.6.5.11. FACTOR CARRIL
+                            7.6.5.12. FACTOR DE CRECIMIENTO (FC)
+                            7.6.5.13. CÁLCULO ESAL's
+                        7.6.6. DATA RECOLECTADA Y PROCESADA		
+                        7.6.7. CONCLUSIONES Y RECOMENDACIONES
+                    </ul>
+                </li>
+                <li>8. INGENIERÍA DEL PROYECTO
+                    <ul class="collapsibleList">
+                    8.1. DISEÑO GEOMÉTRICO
+                        8.1.1. NORMATIVA, REGLAMENTOS Y DOCUMENTOS TÉCNICOS UTILIZADOS
+                        8.1.2. CONSIDERACIONES EN BASE AL ESTUDIO TOPOGRÁFICO
+                            (Qué parametros se utiliza para el diseño geométrico del ETop, maximas pendientes, intersecciones, etc)
+                            8.1.2.1. INVENTARIO VIAL
+                        8.1.3. DESCRIPCIÓN DEL TRAZO
+                        8.1.4. PARÁMETROS DE DISEÑO
+                            8.1.4.1. TRAZO DEL EJE EN PLANTA
+                            8.1.4.2. PERFILES LONGITUDINALES
+                            8.1.4.3. ELECCIÓN DE LA RASANTE DE LA VÍA
+                            8.1.4.4. SECCIONES TRANSVERSALES
+                            8.1.4.5. CLASIFICACIÓN DE LAS VÍAS
+                            8.1.4.6. VELOCIDAD DE DISEÑO
+                            8.1.4.7. ANCHO DE CARRILES
+                            8.1.4.8. BOMBEO
+                            8.1.4.9. VEREDAS
+                            8.1.4.10. RAMPA DE ACCESO PARA MINUSVÁLIDOS
+                            8.1.4.11. SARDINELES
+                            8.1.4.12. VISIBILIDAD
+                        8.1.5. DISEÑO INTERSECCIONES
+                            8.1.4.1. PASOS A NIVEL
+                            8.1.4.2. PASOS A DESNIVEL
+                            8.1.4.3. ROTONDAS
+                        8.1.6. DISEÑO CICLOVÍAS
+                        8.1.7. INVENTARIO VÍAL     
+                    8.2. DISEÑO DE MEZCLAS
+                    8.3. DISEÑO DE ESTRUCTURAS
+                        8.3.1. VEREDAS
+                        8.3.2. SARDINELES
+                        8.3.3. MURO DE CONCRETO
+                        8.3.4. ACEQUIAS
+                    8.4. DISEÑO PAVIMENTO
+                        *******PAVIMENTOS RÍGIDOS********
+                        8.4.1. NORMATIVA Y REGLAMENTOS UTILIZADOS
+                            PAVIMENTOS RÍGIDOS
+                            8.4.1.1. MÉTODO DE LA PCA
+                            8.4.1.2. MÉTODO DE LA AASHTO			
+                        8.4.2. CONSIDERACIONES EN BASE AL ESTUDIO DE MECÁNICA DE SUELOS Y ESTUDIO DE TRÁFICO
+                        8.4.3. CONCEPTOS GENERALES PARA EL DISEÑO DE PAVIMENTOS
+                        8.4.4. DEFINICIÓN DE LOS ELEMENTOS QUE CONFORMAN EL PAVIMENTO
+                            8.4.4.1. SUELO DE FUNDACIÓN
+                            8.4.4.2. SUB RASANTE
+                            8.4.4.3. BASE
+                            8.4.4.4. CAPA DE RODADURA
+                        8.4.5. ESTUDIO Y ANÁLISIS
+                        8.4.6. PROPIEDADES ESTRUCTURALES DEL SISTEMA PAVIMENTO - SUELO
+                        8.4.7. POSICIÓN RELATIVA DE LAS CARGAS
+                        8.4.8. EL TIPO DE CARGA
+                        8.4.9. COMPARACIÓN POR EL TIPO DE VÍA Y ESTRUCTURA DEL PAVIMENTO
+                        8.4.10. DETERMINACIÓN DEL PERÍODO DE DISEÑO
+                        8.4.11. CÁLCULO MEDIANTE EL MÉTODO AASHTO 1993
+                            8.4.11.1. TRÁNSITO EQUIVALENTE
+                            8.4.11.2. DESVIACIÓN NORMAL ESTÁNDAR
+                            8.4.11.3. ERROR ESTÁNDAR COMBINADO
+                            8.4.11.4. VARIACIÓN DEL ÍNDICE DE SERVICIALIDAD
+                            8.4.11.5. COEFICIENTE DE DRENAJE
+                            8.4.11.6. COEFICIENTE DE TRANSMISIÓN DE CARGA
+                            8.4.11.7. PROPIEDADES DEL CONCRETO
+                                8.4.11.1.1. MÓDULO DE ELASTICIDAD (Ec)
+                                8.4.11.1.2. MÓDULO DE RUPTURA DEL CONCRETO(Mr)
+                            8.4.11.1. MÓDULO DE REACCIÓN DE LA SUPERFICIE EN LA QUE SE APOYA EL PAVIMENTO (K)
+                            8.4.11.1. FACTOR DE PERDIDA DE CARGA (Ls)
+                            8.4.11.1. ESPESOR DE LOSA
+                        8.4.12. CÁLCULO MEDIANTE EL MÉTODO PCA PARA e=7.5"
+                            8.4.12.1. RESISTENCIA A LA FLEXIÓN DEL CONCRETO
+                            8.4.12.2. CAPACIDAD DE SOPORTE DEL SUELO
+                                8.4.12.2.1. INCREMENTO EN EL VALOR K DEL SUELO, SEGÚN EL ESPESOR DE UNA BASE GRANULAR
+                            8.4.12.3. PERÍODO DE DISEÑO
+                            8.4.12.4.TRÁNSITO DE DISEÑO
+                            8.4.12.5. ESPESOR INICIAL DE LA LOSA DE CONCRETO
+                                8.4.12.5.1 DETERMINACIÓN DEL ESFUERZO EQUIVALENTE
+                            8.4.12.6. ANÁLISIS POR FATIGA Y POR EROSIÓN
+                            8.4.12.7. ESPESOR DE LOSA
+                        *******PAVIMENTOS FLEXIBLES*******
+                        8.4.1. NORMATIVA Y REGLAMENTOS UTILIZADOS
+                            PAVIMENTOS FLEXIBLES
+                            8.4.1.1. MÉTODO DE LA INA
+                            8.4.1.2. MÉTODO DEL AASHTO			
+                        8.4.2. CONSIDERACIONES EN BASE AL ESTUDIO DE MECÁNICA DE SUELOS Y ESTUDIO DE TRÁFICO
+                        8.4.3. CONCEPTOS GENERALES PARA EL DISEÑO DE PAVIMENTOS
+                        8.4.4. DEFINICIÓN DE LOS ELEMENTOS QUE CONFORMAN EL PAVIMENTO
+
+                    8.5. DISEÑO DE JUNTAS
+                        8.5.1. NORMATIVA, REGLAMENTOS Y DOCUMENTOS TÉCNICOS UTILIZADOS
+                        8.5.2. CONSIDERACIONES EN BASE AL DISEÑO DE PAVIMENTOS
+                        8.5.3. JUNTAS LONGITUDINALES
+                        8.5.4. JUNTAS DE DILATACIÓN
+                        8.5.5. DISEÑO DEL ACERO DE TEMPERATURA
+                        8.5.6. DISEÑO DE PASADORES
+                        8.5.7. CÁLCULO DE JUNTAS LONGITUDINALES
+                            8.5.7.1. ESFUERZO DE TRABAJO DEL ACERO (fs)
+                            8.5.7.2. ESPACIAMIENTO ENTRE PASADORES (Ep)
+                            8.5.7.3. LONGITUD DE PASADORES (Lp)
+                        8.5.8. CÁLCULO DE JUNTAS DE DILATACIÓN
+                            8.5.8.1.NÚMERO DE BARRAS (n)
+                            8.5.8.2.ESPACIAMIENTO ENTRE BARRAS (e)
+                            8.5.8.3.LONGITUD DE PASADORES (Lp)
+                        8.5.9. CÁLCULO DE JUNTAS DE CONTRACCIÓN
+                            8.5.9.1.NÚMERO DE BARRAS (n)
+                            8.5.9.2.ESPACIAMIENTO ENTRE BARRAS (e)
+                            8.5.9.3.LONGITUD DE PASADORES (Lp)
+                        8.5.10. CÁLCULO DE ACERO DE TEMPERATURA
+                            8.5.10.1.ACERO DE TEMPERATURA
+                            8.5.10.2.ESPACIAMIENTO DEL ACERO DE TEMPERATURA
+                            8.5.10.3.ARMADO DEL ACERO DE TEMPERATURA EN OBRA				
+                    8.6. DISEÑO SISTEMA DE DRENAJE Y SUBDRENAJE
+                        8.6.1. NORMATIVA, REGLAMENTOS Y DOCUMENTOS TÉCNICOS UTILIZADOS
+                        8.6.2. CONSIDERACIONES EN BASE AL ESTUDIO DE MECÁNICA DE SUELOS Y ESTUDIO HIDROLÓGICO
+                            8.6.2.1. EVACUACIÓN AGUAS PLUVIALES
+                            8.6.2.2. SUBDRENAJE - ACUÍFEROS
+                        8.6.3. EVALUACIÓN SITUACIÓN ACTUAL
+                            8.6.3.1. INVENTARIO DE DRENAJE Y OBRAS DE ARTE
+                            8.6.3.2. ESTRUCTURAS DE DRENAJE TRANSVERSAL
+                                8.6.3.2.1. GENERALIDADES 
+                                8.6.3.2.2. ALCANTARILLAS EXISTENTES 
+                                8.6.3.2.3. CUNETAS
+                        8.6.4. SOLUCIONES PLANTEADAS
+                        8.6.5. OBRAS DE DRENAJE PLANTEADAS
+                            8.6.5.1. OBRAS DE DRENAJE TRANSVERSAL
+                                8.6.5.1.1. ALCANTARILLAS
+                                8.6.5.1.1. BADÉN
+                            8.6.5.2. OBRAS DE DRENAJE LONGITUDINAL
+                                8.6.5.2.1. CUNETAS LATERALES
+                                8.6.6. OBRAS DE SUBDRENAJE PLANTEADAS
+                    8.7. SEÑALIZACIÓN
+                        8.7.1. NORMATIVA Y REGLAMENTOS UTILIZADOS
+                        8.7.2. CONSIDERACIONES EN BASE AL ESTUDIO DE TRÁFICO Y DISEÑO GEOMÉTRICO	
+                        8.7.1. SEÑALIZACIÓN VERTICAL
+                        8.7.2. SEÑALIZACIÓN HORIZONTAL
+                        8.7.3. SEMAFORIZACIÓN
+                    </ul>
+                </li>
+                <li>9. PLANOS
+                    <ul class="collapsibleList">
+                    <li>9.1. UBICACIÓN Y LOCALIZACIÓN</li>
+                    <li>9.2. PLANTA TOPOGRÁFICA (ESTADO ACTUAL)</li>
+                    <li>9.3. LEVANTAMIENTO TOPOGRÁFICO</li>
+                    <li>9.4. SERVICIOS EXISTENTES, REDES Y CONEXIONES DE AGUA, DESAGÜE Y POSTES DE ALUMBRADO Y TELEFONÍA</li>
+                    <li>9.5. PLANTA DE DISTRIBUCIÓN GENERAL</li>
+                    <li>9.6. PLANO DETALLE DE PAVIMENTO</li>
+                    <li>9.7. PLANO BOCACALLE Y MARTILLOS</li>
+                    <li>9.8. PLANO VEREDAS Y RAMPAS</li>
+                    <li>9.9. PLANO DE BENEFICIARIOS</li>
+                    <li>9.10. PLANO FOTOGRÁFICOS</li>
+                    <li>9.11. PLANO DE BOTADERO</li>
+                    <li>9.12. PLANO DE CALICATAS</li>
+                    <li>9.13. PLANO DE CANTERAS</li>
+                    <li>9.14. PLANO DE SEÑALIZACIÓN</li>
+                    <li>9.15. SECCIONES TRANSVERSALES</li>
+                    </ul>
+                </li>
+                <li>10. ANEXOS Y DOCUMENTOS
+                    <ul class="collapsibleList">
+                    <li>10.1. REGISTRO DE PROYECTO DE INVERSION (FORMATO N°07-A, ETC)</li>
+                    <li>10.2. FICHA TÉCNICA ESTANDAR PARA LA FORMULACION Y EVALUACION DE PROYECTOS DE INVERSION EN CARRETERAS INTERURBANAS</li>
+                    <li>10.3. MANUAL DE OPERACIÓN Y MANTENIMIENTO</li>
+                    <li>10.4. PANEL FOTOGRÁFICO CON DESCRIPCIÓN</li>
+                    <li>10.5. DOCUMENTOS QUE GARANTICEN LA OPERACIÓN Y  MANTENIMIENTO</li>
+                    <li>10.6. DOCUMENTOS QUE GARANTICEN LA LIBRE DISPONIBILIDAD DEL TERRENO</li>
+                    <li>10.7. CERTIFICACIÓN AMBIENTAL</li>
+                    <li>10.8. CERTIFICADO DE INEXISTENCIA DE RESTOS ARQUEOLÓGICOS (CIRA)</li>
+                    <li>10.9. POBLACIÓN BENEFICIARIA</li>
+                    <li>10.10. *DECLARACIÓN JURADA DE LA UNIDAD EJECUTORA DE OBTENER LA AUTORIZACIÓN DE VERTIMIENTO DE AGUAS RESIDUALES TRATADAS DEL ANA.</li>
+                    <li>10.11. DISCO COMPACTO CD – VERSIÓN DIGITAL</li>
+                    <li>10.12. RESOLUCION DE APROBACION DEL EXPEDIENTE TÉCNICO</li>
+                    <li>10.13. FIRMA Y SELLO DE LOS PROFESIONALES ESPECIALISTAS</li>
+                    </ul>
+                </li>
+                </ul>
+            </section>

@@ -236,7 +236,8 @@ $(document).ready(function () {
                     var searchField = $('#searchbar2').val();
                     var expression = new RegExp(searchField, "i");
                     if (value.descrip.search(expression) != -1){
-                    $('#resultado2_lista').append('<li class="list-group-item link-class"> '+value.descrip+' | <span class="text-muted">'+value.marca+'</span></li>');
+                    $('#resultado2_lista').append('<li class="list-group-item link-class"> '+value.descrip+'</li>');
+                    /* AQUI APARECE LA PARTE ADICIONAL EN LA LISTA <span> $('#resultado2_lista').append('<li class="list-group-item link-class"> '+value.descrip+' | <span class="text-muted">'+value.marca+'</span></li>');*/
                     }
                 });
             },

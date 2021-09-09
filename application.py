@@ -206,6 +206,13 @@ def pistasveredas():
     return render_template('EXP_PUB/pistasveredas.html')
 # -------------------------------------------------------------------------------------------------------------------------------------
 
+# ----------------------------------PAGINA EXPTECNICOS.HTML-------------------------------
+
+@app.route("/profesionales")
+def profesionales():
+    return render_template('PROFES/profesionales.html')
+
+# -------------------------------------------------------------------------------------------------------------------------------------
 
 @app.route("/login", methods=["GET", "POST"])
 def login():

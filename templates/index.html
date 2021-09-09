@@ -1,317 +1,422 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
 
-{% block title %}
+<html lang="en">
 
-{% endblock %}
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-W8V5G6G');</script>
+        <!-- End Google Tag Manager -->
 
-{% block main %}
-<section class="intro">
-    <p><b>LA EVOLUCIÓN DE LA INGENIERÍA</b></p>
-    <h1><img src="static/iconsearch.png">¿<span id="phrase4" class="txt-type" data-wait="1000" data-words='["Qué es Artificial Intelligence?", "Especialistas en Proyectos?","Bases de datos?", "Tecnificación de procesos y herramientas para ingenieros?", "Cuánto cuestan los materiales?"]'></span>
-    </h1>
-    <h2>La palabra ingeniería e ingenio provienen del latín <span style="font-style: italic;">ingenium</span>,<br>¡Pregunta! ¡Aprende! ¡Crea! ¡Innova!<br>Todas las respuestas, las tenemos <span style="font-weight: bolder;">aquí</span>.</h2>
-    <a href="#section-2">
-        <div class="scroll-down"></div>
-    </a>
-</section>
-<section id="section-2" class= "caratula">
-    <div class="indice" >
-        <h1 style="font-weight:bold" >¿QUÉ PUEDES HACER CON MAIN?</h1>
-        </ul>
-    </div>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="google-site-verification" content="e1IUGGe5jtLX6mEy5FDHZ4VVLCjzQqEFkBjx-34rmVE" />
 
-    <div class="quehacemos">
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div id="main" class="cosas">
-                        <div class="centrarcosas">
-                            <h1  style="font-weight:bold; color: whitesmoke;">¿Qué es<br>MAIN?</h1>
-                        </div>
-                    </div>
-                </div>
+        <!-- documentation at http://getbootstrap.com/docs/4.1/, alternative themes at https://bootswatch.com/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
 
-                <div class="back">
-                    <div id="main" class="cosas">
-                        <div class="centrarcosas">
-                            <h1  style="font-weight:bold; color: whitesmoke;">EMPRESA DE SERVICIOS INGENIERILES Y CONSULTORÍA</h1>
-                            <h2 style="color: white;">Brindamos soluciones técnicas y tecnológicas.<br>Especialistas en visionar nuevas metodologías, procesos e <br>instrumentos que solucionen necesidades únicas. </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1  style="font-weight:bold">COSTOS<br>v1.0</h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1  style="font-weight:bold">COSTOS</h1>
-                            <h2>Basados en precios constantemente actualizados del mercado, te brindamos:</h2>
-                            <ul>
-                                <li>Costos de Productos</li>
-                                <li>Costos de Materiales</li>
-                                <li>Costos de Mano de obra</li>
-                                <li>Costos de Equipos</li>
-                                <li>Costos de Maquinaria</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label> 
+        <!-- Main ico -->
+        <link href="/static/favicon.ico" rel="icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
         
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">EXPEDIENTES TÉCNICOS<br>v2.0</span></h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">EXPEDIENTES TÉCNICOS</h1>
-                            <h2>¿Cómo se hacen las cosas? <br>Enterate como se estructuran documentos técnicos que nos han permitido vivir en el mundo actual.</h2>
-                            <ul>
-                                <li>Exp. Téc. Obras Públicas</li>
-                                <li>Exp. Téc. Obras Privadas</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">DOCUMENTOS TÉCNICO-LEGALES <br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br>v2.0</span></h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">DOCUMENTOS TÉCNICO-LEGALES</h1>
-                            <h2>Te facilitamos toda la información para la elaboración de cualquier proyecto:</h2>
-                            <ul>
-                                <li>Normatividad vigente</li>
-                                <li>Reglamentos Nacionales</li>
-                                <li>Guías Técnicas actualizadas</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-
+        <link href="/static/styles1.css" rel="stylesheet">
         
+        <!-- AOS Library -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">PRESUPUESTOS<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v2.1</span></h1>
-                        </div>
-                    </div>
-                </div>
+        <title>MAIN - Ingenieria del Futuro {% block title %}{% endblock %}</title>
 
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">PRESUPUESTOS</h1>
-                            <h2>Basados en la realidad peruana, te brindamos:</h2>
-                            <ul>
-                                <li>Análisis de precios unitarios</li>
-                                <li>Partidas presupuestales</li>
-                                <li>Rendimientos</li>
-                                <li>Metrados (Costos por m, m2, m3, etc)</li>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8V5G6G"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <nav class="navbar navbar-expand-md fixed-top navbar-light" >
+            <a href="/"><img src='static/logowhite.png' style='height: 50px;' alt=''></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                {% if session.user_id %}
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="/quote">Registrar productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/buy">Registrar tienda</a></li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/logout">Log Out</a></li>
+                    </ul>
+                {% else %}
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/profesionales">Profesionales</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Expedientes Técnicos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="/exptecnicos">Buscador de Expedientes</a></li>
+                              <li><a class="dropdown-item" href="/exp_publicos">Partes de un Expediente</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">LA CIENCIA DETRÁS<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v3.0</span></h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">LA CIENCIA DETRÁS</h1>
-                            <h2>Brindamos información actualizada de la ciencia detrás de la ingeniería</h2>
-                            <h2>La información de todas las universidades del país en un solo lugar</h2>
-                            <ul>
-                                <li>Bibliografía Cursos de Pregrado</li>
-                                <li>Bibliografía Cursos de Especialidad</li>
-                                <li>Tesis Pregrado, Máster y Doctorado</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">CURSOS EXPERIENCIAS<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v4.0</span></h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">CURSOS EXPERIENCIAS</h1>
-                            <h2>¿Hay algo de lo que dudas y necesitas saber como se hace?</h2>
-                            <h2>La experiencia es el mayor valor de un profesional, y nosotros te lo compartimos. Todo lo que necesitas para trabajar en el sector público o privado esta aquí.</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">PROFESIONALES<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v5.0</span></h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">PROFESIONALES</h1>
-                            <h2>¡Solicita el apoyo de un profesional para tu proyecto!</h2>
-                            <h2>¡Contrata a un profesional certificado!</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-
-        <label>
-            <input type="checkbox"/>
-            <div class="flip-card">
-                <div class="front">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">HANDYMEN<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v5.1</span></h1>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="cosas">
-                        <div class="centrarcosas">
-                            <h1 style="font-weight:bold;">HANDYMEN</h1>
-                            <h2>Nuestra gran base de datos te permitirá encontrar a los mejores técnicos en mantenimiento.</h2>
-                            <ul>
-                                <li>Gasfiteros</li>
-                                <li>Pintores</li>
-                                <li>Electricistas</li>
-                                <li>Carpinteros</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </label>
-        
-
-        
-
-    </div>
-    <a href="#section-3">
-        <div class="scroll-down"></div>
-    </a>
+                          </li>
+                          <li class="nav-item"><a class="nav-link" href="/costos">Costos</a></li>
+                          <li class="nav-item"><a class="nav-link" href="/develop" style="font-size: 0.8rem; line-height: 15px;">Somos Comunidad <br> ¡Mejoremos Juntos!</a></li>
     
-</section>
-{% endblock %}
-
-{% block body %}
-<section id="section-3">
-    <div class="animado" data-aos="fade-up">
-        <div id= "handy_der" style="display: table; margin-top: 50px;">
-            <h1 class="h1_text" style="display: table-cell; vertical-align: middle; text-align: left;">¿Tu familia quiere saber <br> cuanto cuesta comprar y colocar <br> la ventana que haz roto? <br> ¿O talvez solo quieres iniciar un proyecto? <br><span style="font-weight:bold">¡Contáctanos!</span></h1>
-        </div>
-        <div id="handy_izq" style="margin-top: 50px;">
-            <img id="handy" src="static/HANDYPEOPLE.png" alt="" >
-        </div>
-    </div>
-
-    <div class="clearfix"></div>
-
-    <div class="animado" data-aos="fade-down">
-        <div id="budget_der" style="margin-bottom: 70px;">
-            <img id="budget" src="static/budget.png" alt="" >
-        </div>
-        <div id ="budget_izq" style="display: table; margin-bottom: 70px;">
-            <h1 class="h1_text" style="display: table-cell; vertical-align: middle;">Encuentra los costos <br> más actualizados para estructurar <br>el presupuesto de tu proyecto <br>(versión 1.0) <br></h1>
-        </div>
-    </div>
-    <a href="#section-4">
-        <div class="scroll-down"></div>
-    </a>
-</section>
-
-<div class="clearfix"></div>
-
-<section id="section-4" class ="cubicornio">
-    <h1 style="text-align: center; padding: 20px; padding-top: 70px;">¡Encuentra todo lo que necesites!</h1>
-
-    <div id="wrapper">
-        <div id="capa_izquierda">
-            <img id="imagen" src="static/Main_principal.png" alt="" style="width: 100%;">
-        </div>
-
-        <div id="capa_derecha">
-            <div style="height: 50%;">
-                <button class="btn btn-lg btn-outline-secondary" id="btn1" onclick="location.href = '/costos';">COSTOS</a>
+                        <!--<li class="nav-item"><a class="nav-link" href="/develop" >Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/develop">Log In</a></li>-->
+                    </ul>
+                {% endif %}
             </div>
-            <div style="height: 20px;"></div>
-            <div style="height: 50%;">
-                <button class="btn btn-lg btn-outline-secondary" id="btn2" onclick="location.href = '/exptecnicos';">EXPEDIENTES<br><span>TÉCNICOS</span></a>
-            </div>
-        </div>
-    </div>
-</section>
-{% endblock %}
+        </nav>
+        
+        {% if get_flashed_messages() %}
+            <header>
+                <div class="alert alert-primary border text-center" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            </header>
+        {% endif %}
+
+        <main class="contenedor">
+            <section class="intro">
+                <p id="text"><b>EVOLUCIÓN <br>DE LA INGENIERÍA</b></p>
+                <img src="static/stars.png" id="stars">
+                <img src="static/front.png" id="front">
+                <img src="static/font.png" id="font">
+                <img src="static/moon.png" id="moon">
+
+                <!--<h2 id="text2">La palabra ingeniería e ingenio provienen del latín <span style="font-style: italic;">ingenium</span>,<br>¡Pregunta! ¡Aprende! ¡Crea! ¡Innova!<br>Todas las respuestas, las tenemos <span style="font-weight: bolder;">aquí</span>.</h2> -->
+                
+                <h1 id="text2"><span id="phrase4" class="txt-type" data-wait="1000" data-words='["¿Qué es Artificial Intelligence?", "¿Especialistas en Proyectos?","¿Bases de datos?", "¿Tecnificación de procesos?", "¿Cuánto cuestan los materiales?", "¿Recursos para ingenieros?"]'></span>
+                </h1>
+
+                <div style="cursor: auto;" class="scroll-down"></div>
+            </section>
+            <section id="section-2" class= "caratula">
+                <div class="indice" >
+                    <h1 style="font-weight:bold" >¿QUÉ PUEDES HACER CON MAIN?</h1>
+                    </ul>
+                </div>
+
+                <div class="quehacemos">
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div id="main" class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1  style="font-weight:bold; color: whitesmoke;">¿Qué es<br>MAIN?</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div id="main" class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1  style="font-weight:bold; color: whitesmoke;">EMPRESA DE SERVICIOS INGENIERILES Y CONSULTORÍA</h1>
+                                        <h2 style="color: white;">Brindamos soluciones técnicas y tecnológicas.<br>Especialistas en visionar nuevas metodologías, procesos e <br>instrumentos que solucionen necesidades únicas. </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1  style="font-weight:bold">COSTOS<br>v1.0</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1  style="font-weight:bold">COSTOS</h1>
+                                        <h2>Basados en precios constantemente actualizados del mercado, te brindamos:</h2>
+                                        <ul>
+                                            <li>Costos de Productos</li>
+                                            <li>Costos de Materiales</li>
+                                            <li>Costos de Mano de obra</li>
+                                            <li>Costos de Equipos</li>
+                                            <li>Costos de Maquinaria</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label> 
+                    
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">EXPEDIENTES TÉCNICOS<br>v2.0</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">EXPEDIENTES TÉCNICOS</h1>
+                                        <h2>¿Cómo se hacen las cosas? <br>Enterate como se estructuran documentos técnicos que nos han permitido vivir en el mundo actual.</h2>
+                                        <ul>
+                                            <li>Exp. Téc. Obras Públicas</li>
+                                            <li>Exp. Téc. Obras Privadas</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">DOCUMENTOS TÉCNICO-LEGALES <br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br>v2.0</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">DOCUMENTOS TÉCNICO-LEGALES</h1>
+                                        <h2>Te facilitamos toda la información para la elaboración de cualquier proyecto:</h2>
+                                        <ul>
+                                            <li>Normatividad vigente</li>
+                                            <li>Reglamentos Nacionales</li>
+                                            <li>Guías Técnicas actualizadas</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+
+                    
+
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">PRESUPUESTOS<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v2.1</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">PRESUPUESTOS</h1>
+                                        <h2>Basados en la realidad peruana, te brindamos:</h2>
+                                        <ul>
+                                            <li>Análisis de precios unitarios</li>
+                                            <li>Partidas presupuestales</li>
+                                            <li>Rendimientos</li>
+                                            <li>Metrados (Costos por m, m2, m3, etc)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">LA CIENCIA DETRÁS<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v3.0</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">LA CIENCIA DETRÁS</h1>
+                                        <h2>Brindamos información actualizada de la ciencia detrás de la ingeniería</h2>
+                                        <h2>La información de todas las universidades del país en un solo lugar</h2>
+                                        <ul>
+                                            <li>Bibliografía Cursos de Pregrado</li>
+                                            <li>Bibliografía Cursos de Especialidad</li>
+                                            <li>Tesis Pregrado, Máster y Doctorado</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">CURSOS EXPERIENCIAS<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v4.0</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">CURSOS EXPERIENCIAS</h1>
+                                        <h2>¿Hay algo de lo que dudas y necesitas saber como se hace?</h2>
+                                        <h2>La experiencia es el mayor valor de un profesional, y nosotros te lo compartimos. Todo lo que necesitas para trabajar en el sector público o privado esta aquí.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">PROFESIONALES<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v5.0</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">PROFESIONALES</h1>
+                                        <h2>¡Solicita el apoyo de un profesional para tu proyecto!</h2>
+                                        <h2>¡Contrata a un profesional certificado!</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+
+                    <label>
+                        <input type="checkbox"/>
+                        <div class="flip-card">
+                            <div class="front">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">HANDYMEN<br> <span style="font-size: 1rem; color: rgba(85, 84, 82, 0.589);">Pronto!<br> v5.1</span></h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="back">
+                                <div class="cosas">
+                                    <div class="centrarcosas">
+                                        <h1 style="font-weight:bold;">HANDYMEN</h1>
+                                        <h2>Nuestra gran base de datos te permitirá encontrar a los mejores técnicos en mantenimiento.</h2>
+                                        <ul>
+                                            <li>Gasfiteros</li>
+                                            <li>Pintores</li>
+                                            <li>Electricistas</li>
+                                            <li>Carpinteros</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </label>
+                    
+
+                    
+
+                </div>
+                <a href="#section-3">
+                    <div class="scroll-down"></div>
+                </a>
+                
+            </section>
+
+            <section id="section-3">
+                <div class="animado" data-aos="fade-up">
+                    <div id= "handy_der" style="display: table; margin-top: 50px;">
+                        <h1 class="h1_text" style="display: table-cell; vertical-align: middle; text-align: left;">¿Tu familia quiere saber <br> cuanto cuesta comprar y colocar <br> la ventana que haz roto? <br> ¿O talvez solo quieres iniciar un proyecto? <br><span style="font-weight:bold">¡Contáctanos!</span></h1>
+                    </div>
+                    <div id="handy_izq" style="margin-top: 50px;">
+                        <img id="handy" src="static/HANDYPEOPLE.png" alt="" >
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="animado" data-aos="fade-down">
+                    <div id="budget_der" style="margin-bottom: 70px;">
+                        <img id="budget" src="static/budget.png" alt="" >
+                    </div>
+                    <div id ="budget_izq" style="display: table; margin-bottom: 70px;">
+                        <h1 class="h1_text" style="display: table-cell; vertical-align: middle;">Encuentra los costos <br> más actualizados para estructurar <br>el presupuesto de tu proyecto <br>(versión 1.0) <br></h1>
+                    </div>
+                </div>
+                <a href="#section-4">
+                    <div class="scroll-down"></div>
+                </a>
+            </section>
+
+            <div class="clearfix"></div>
+
+            <section id="section-4" class ="cubicornio">
+                <h1 style="text-align: center; padding: 20px; padding-top: 70px;">¡Encuentra todo lo que necesites!</h1>
+
+                <div id="wrapper">
+                    <div id="capa_izquierda">
+                        <img id="imagen" src="static/imagenai1.png" alt="" style="width: 100%;">
+                    </div>
+
+                    <div id="capa_derecha">
+                        <div style="height: 50%;">
+                            <button class="btn btn-lg btn-outline-secondary" id="btn1" onclick="location.href = '/costos';">COSTOS</a>
+                        </div>
+                        <div style="height: 20px;"></div>
+                        <div style="height: 50%;">
+                            <button class="btn btn-lg btn-outline-secondary" id="btn2" onclick="location.href = '/exptecnicos';">EXPEDIENTES<br><span>TÉCNICOS</span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="small text-center text-muted">
+            © Todos los Derechos Reservados. v1.0
+        </footer>
+        
+        <!--Own Scripts -->
+        <script src="static/script.js"></script>
+
+        <!-- Scripts -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   
+    </body>
+    <!--AOS Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init(
+        {
+            duration:3000,
+            offset: 100 
+        }
+    );</script>
+    
+</html>

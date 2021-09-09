@@ -228,3 +228,27 @@ for(var i = 1; i < document.getElementsByClassName("txt-type").length + 1; i++){
     document.addEventListener('DOMContentLoaded', functions[i]); 
 }
 */
+
+// IMAGES MOVEMENT PROPERTIES--------------------------------------------------------------------
+
+let stars = document.getElementById('stars');
+let front = document.getElementById('front');
+let font = document.getElementById('font');
+let moon = document.getElementById('moon');
+let text = document.getElementById('text');
+let text2 = document.getElementById('text2');
+
+window.addEventListener('scroll', function(){
+  let value = window.scrollY;
+  stars.style.left = value * 0.25 + 'px';
+  moon.style.top = value * 1.5 + 'px';
+  text.style.marginRight = value * 4 + 'px';
+  text2.style.marginBottom = value * 1.5 + 'px';
+
+  if (screen.width < 750){
+    // stay static
+    }
+  else{
+    font.style.top = value * 0.5 + 'px';
+  }
+})
